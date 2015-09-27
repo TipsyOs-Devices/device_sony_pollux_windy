@@ -1,5 +1,2 @@
 # Graphics
 ro.sf.lcd_density=240
-
-# Addon.d needs
-ro.cm.version=12.1.cm_pollux_windy
