@@ -22,7 +22,7 @@ include device/sony/pollux-common/BoardConfigCommon.mk
 TARGET_OTA_ASSERT_DEVICE := SGP311,SGP312,pollux_windy
 
 # Kernel defconfigs
-TARGET_KERNEL_CONFIG := fusion3_pollux_windy_defconfig
+TARGET_KERNEL_CONFIG := cm_fusion3_pollux_windy_defconfig
 
 # Kernel Toolchain
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-sm/bin
