@@ -24,11 +24,11 @@ TARGET_OTA_ASSERT_DEVICE := SGP311,SGP312,pollux_windy
 TARGET_KERNEL_CONFIG := cm_fusion3_pollux_windy_defconfig
 
 # Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8-uber/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-uber/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Rom Toolchain
-TARGET_GCC_VERSION_EXP := 4.8-uber
+TARGET_GCC_VERSION_EXP := 4.9-uber
 
 # Optimizations
 CLANG_O3 := true
