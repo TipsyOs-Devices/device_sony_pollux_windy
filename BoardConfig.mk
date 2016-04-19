@@ -29,6 +29,7 @@ STRICT_ALIASING := false
 KRAIT_TUNINGS := true
 GRAPHITE_OPTS := false
 ENABLE_GCCONLY := true
+ENABLE_SANITIZE := true
 
 # TWRP tab flags
 TW_THEME := landscape_hdpi
